@@ -27,7 +27,7 @@ local function CheckKey(tab, key)
 	end
 end
 
-local EmpireLib = {
+local SolarisLib = {
     Themes = {
         Default = {
             MainFrame = Color3.fromRGB(54,57,63),
