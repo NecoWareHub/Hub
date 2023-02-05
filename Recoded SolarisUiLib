@@ -27,7 +27,7 @@ local function CheckKey(tab, key)
 	end
 end
 
-local SolarisLib = {
+local EmpireLib = {
     Themes = {
         Default = {
             MainFrame = Color3.fromRGB(54,57,63),
@@ -189,7 +189,7 @@ local SolarisLib = {
     Settings = {
         Theme = "Discord",
         ShowFriendsOnLaunch = false,
-        ShowMusicOnLaunch = false,
+        ShowMusicOnLaunch = true,
         CloseBind = "RightControl"
     },
     Flags = {},
@@ -216,7 +216,7 @@ end)
 -- SolarisLib.Themes[SolarisLib.Settings.Theme].MainFrame
 
 local MainUI = game:GetObjects("rbxassetid://7835727566")[1]
-print("SolarisLib Loaded!")
+print("Empire Loaded!")
 local function MakeDraggable(topbarobject, object) 
     pcall(function()
 		local dragging, dragInput, mousePos, framePos = false
