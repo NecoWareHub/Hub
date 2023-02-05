@@ -187,9 +187,9 @@ local SolarisLib = {
         }
     },
     Settings = {
-        Theme = "Discord",
+        Theme = "Vape",
         ShowFriendsOnLaunch = false,
-        ShowMusicOnLaunch = true,
+        ShowMusicOnLaunch = false,
         CloseBind = "RightControl"
     },
     Flags = {},
