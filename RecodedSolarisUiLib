@@ -187,7 +187,7 @@ local SolarisLib = {
         }
     },
     Settings = {
-        Theme = "Vape",
+        Theme = "Discord",
         ShowFriendsOnLaunch = false,
         ShowMusicOnLaunch = false,
         CloseBind = "RightControl"
@@ -272,8 +272,6 @@ function SolarisLib:Notification(title, desc, time)
     NotificationFrame.NotificationBody.NotificationFrame.NotificationTopFrame.time.Text = time .. "s"
     Notify:New(title,desc, time)
 end    
-
-SolarisLib:Notification("EmpireHub", "Loading..", 3)
 
 function SolarisLib:New(Config)
     Config.Title = Config.Title or "Solaris UI"
