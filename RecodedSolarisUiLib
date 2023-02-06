@@ -273,7 +273,7 @@ function SolarisLib:Notification(title, desc, time)
     Notify:New(title,desc, time)
 end    
 
-SolarisLib:Notification("Solaris Library", "Modified Version By Nigger Xrer", 5)
+SolarisLib:Notification("EmpireHub", "Loading..", 3)
 
 function SolarisLib:New(Config)
     Config.Title = Config.Title or "Solaris UI"
